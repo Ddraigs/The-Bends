@@ -1,0 +1,1454 @@
+﻿Log file open, 05/22/18 23:55:38
+LogInit:Display: Running engine for game: TheBends
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1447315037) SRandInit(1447315037).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.181517
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/UE/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.22-22.55.40:463][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'. Value remains '1'
+[2018.05.22-22.55.40:515][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.22-22.55.40:515][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.22-22.55.40:628][  0]LogInit: Computer: DESKTOP-U064HA0
+[2018.05.22-22.55.40:628][  0]LogInit: User: lukem
+[2018.05.22-22.55.40:628][  0]LogInit: CPU Page size=65536, Cores=8
+[2018.05.22-22.55.40:628][  0]LogInit: High frequency timer resolution =3.691542 MHz
+[2018.05.22-22.55.40:639][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.22-22.55.40:639][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.22-22.55.40:640][  0]LogMemory: Process Physical Memory: 267.26 MB used, 267.26 MB peak
+[2018.05.22-22.55.40:640][  0]LogMemory: Process Virtual Memory: 265.20 MB used, 265.20 MB peak
+[2018.05.22-22.55.40:640][  0]LogMemory: Physical Memory: 6979.30 MB used,  9333.20 MB free, 16312.50 MB total
+[2018.05.22-22.55.40:640][  0]LogMemory: Virtual Memory: 685.55 MB used,  9333.20 MB free, 134217728.00 MB total
+[2018.05.22-22.55.41:711][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2018.05.22-22.55.46:670][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.22-22.55.46:739][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.05.22-22.55.46:739][  0]LogD3D11RHI:       8088/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.22-22.55.46:741][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.22-22.55.46:741][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.22-22.55.46:741][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.22-22.55.46:761][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.22-22.55.46:761][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.22-22.55.46:761][  0]LogWindows: EnumDisplayDevices:
+[2018.05.22-22.55.46:762][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.05.22-22.55.46:762][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.05.22-22.55.46:762][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.05.22-22.55.46:762][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.05.22-22.55.46:762][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.22-22.55.46:762][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.05.22-22.55.46:762][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.22-22.55.46:762][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.22-22.55.46:762][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.05.22-22.55.46:812][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.22-22.55.47:176][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.22-22.55.47:366][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Intermediate/Shaders/WorkingDirectory/18132/).
+[2018.05.22-22.55.47:367][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lukem/AppData/Local/Temp/UnrealShaderWorkingDir/D3568ED446EE9C1866B172AC4C98E47F/'.
+[2018.05.22-22.55.47:372][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.05.22-22.55.52:083][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.22-22.55.52:138][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.05.22-22.55.52:193][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.22-22.55.52:248][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.05.22-22.55.52:347][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.05.22-22.55.52:403][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.22-22.55.52:459][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.22-22.55.52:517][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.22-22.55.52:570][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.05.22-22.55.52:661][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.05.22-22.55.52:729][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.22-22.55.52:783][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.22-22.55.52:836][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.22-22.55.52:892][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.22-22.55.52:946][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.22-22.55.53:068][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.22-22.55.53:068][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.22-22.55.53:104][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.05.22-22.55.53:284][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.05.22-22.55.53:319][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.05.22-22.55.53:373][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.22-22.55.53:427][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.22-22.55.53:481][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.22-22.55.53:554][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.05.22-22.55.53:554][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.05.22-22.55.54:630][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.05.22-22.55.54:835][  0]LogDerivedDataCache: Loaded boot cache 0.20s 51MB C:/Users/lukem/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.05.22-22.55.54:835][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lukem/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.05.22-22.55.54:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Uni Stuff/Year2/Github/The-Bends/TheBends/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.22-22.55.54:835][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.22-22.55.54:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Uni Stuff/Year2/Github/The-Bends/TheBends/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.22-22.55.54:835][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.22-22.55.54:895][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.22-22.55.54:907][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lukem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.22-22.55.55:104][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.22-22.55.55:327][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.22-22.55.55:327][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.22-22.56.04:308][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.22-22.56.04:409][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.22-22.56.05:030][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.22-22.56.05:088][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.22-22.56.05:154][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.22-22.56.05:154][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.05.22-22.56.05:154][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.05.22-22.56.09:959][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: thebends, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3470498370
+[2018.05.22-22.56.10:087][  0]LogAssetRegistry: FAssetRegistry took 0.0232 seconds to start up
+[2018.05.22-22.56.10:260][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.125851 seconds
+[2018.05.22-22.56.10:283][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.05.22-22.56.10:283][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2018.05.22-22.56.10:283][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.22-22.56.10:333][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.22-22.56.33:132][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.05.22-22.56.33:205][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.22-22.56.33:263][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.22-22.56.34:466][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.22-22.56.35:303][  0]SourceControl: Info Source control is disabled
+[2018.05.22-22.56.35:310][  0]SourceControl: Info Source control is disabled
+[2018.05.22-22.56.35:394][  0]SourceControl: Info Source control is disabled
+[2018.05.22-22.56.35:461][  0]SourceControl: Info Source control is disabled
+[2018.05.22-22.56.37:902][  0]LogEngine: Initializing Engine...
+[2018.05.22-22.56.37:972][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.05.22-22.56.38:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.22-22.56.38:522][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.22-22.56.38:943][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.22-22.56.39:074][  0]LogInit: XAudio2 using ' Headphones (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.22-22.56.39:086][  0]LogInit: FAudioDevice initialized.
+[2018.05.22-22.56.39:119][  0]LogDerivedDataCache: Saved boot cache 0.03s 51MB C:/Users/lukem/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.05.22-22.56.39:129][  0]LogInit: Texture streaming: Enabled
+[2018.05.22-22.56.39:262][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.22-22.56.39:465][  0]LogInit: Transaction tracking system initialized
+[2018.05.22-22.56.40:027][  0]BlueprintLog: New page: Editor Load
+[2018.05.22-22.56.41:469][  0]LocalizationService: Info Localization service is disabled
+[2018.05.22-22.56.42:505][  0]LogConsoleResponse:Display: 
+[2018.05.22-22.56.44:355][  0]LogFileCache: Scanning file cache for directory 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/' took 0.02s
+[2018.05.22-22.56.44:355][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.22-22.56.44:356][  0]LogCook:Display: Mobile HDR setting 1
+[2018.05.22-22.56.46:716][  0]SourceControl: Info Source control is disabled
+[2018.05.22-22.56.46:766][  0]Cmd: MAP LOAD FILE="E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.22-22.56.46:782][  0]LightingResults: New page: Lighting Build
+[2018.05.22-22.56.46:911][  0]MapCheck: New page: Map Check
+[2018.05.22-22.56.46:911][  0]LightingResults: New page: Lighting Build
+[2018.05.22-22.56.47:596][  0]LogClass:Warning: Enum '/Game/ExampleContent/VR_Trace_Interaction/Blueprints/Enums/EInteractionTraceTypes.EInteractionTraceTypes' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.05.22-22.56.48:364][  0]LogClass:Warning: Enum '/Game/ExampleContent/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackIntensity.EFeedbackIntensity' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.05.22-22.56.48:364][  0]LogClass:Warning: Enum '/Game/ExampleContent/VR_World_Interaction/Blueprints/FeedbackEffects/EFeedbackType.EFeedbackType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.05.22-22.56.56:859][  0]LogClass:Warning: Enum '/Game/Blueprints/Enum/EHeadsetEnum.EHeadsetEnum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.05.22-22.56.57:329][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.05.22-22.56.57:664][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:664][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:664][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:664][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:664][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:664][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:687][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:687][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:687][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:687][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:687][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:687][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inEars of length 0!
+[2018.05.22-22.56.57:783][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.22-22.56.57:802][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.22-22.56.57:883][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.952ms to complete.
+[2018.05.22-22.56.57:884][  0]LogFileHelpers: Loading map 'StartupMap' took 11.131
+[2018.05.22-22.56.58:980][  0]LogCollectionManager: Loaded 0 collections in 0.001838 seconds
+[2018.05.22-22.56.59:112][  0]LogFileCache: Scanning file cache for directory 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Collections/' took 0.01s
+[2018.05.22-22.56.59:112][  0]LogFileCache: Scanning file cache for directory 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/Developers/lukem/Collections/' took 0.01s
+[2018.05.22-22.56.59:112][  0]LogFileCache: Scanning file cache for directory 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/Collections/' took 0.01s
+[2018.05.22-22.56.59:112][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2018.05.22-22.56.59:128][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2259 classes and 459 folders.
+[2018.05.22-22.56.59:232][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.22-22.57.00:520][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.05.22-22.57.00:608][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.05.22-22.57.01:178][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.05.22-22.57.01:271][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.05.22-22.57.01:415][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.22-22.57.01:415][  0]LogLoad: (Engine Initialization) Total time: 88.69 seconds
+[2018.05.22-22.57.01:415][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.24 seconds
+[2018.05.22-22.57.01:415][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.22-22.57.01:761][  0]LogOcInput: OculusInput pre-init called
+[2018.05.22-22.57.01:896][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.22-22.57.01:950][  0]LogSlate: Took 0.012812 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.22-22.57.01:964][  0]LogSlate: Took 0.010464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.22-22.57.01:985][  0]LogSlate: Took 0.015549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.22-22.57.02:483][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2018.05.22-22.57.02:666][  1]LogSlate: Took 0.015555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.22-22.57.02:954][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2018.05.22-22.57.03:583][  4]LogAssetRegistry: Asset discovery search completed in 53.5173 seconds
+[2018.05.22-22.57.03:583][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2018.05.22-22.57.28:506][621]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.22-22.57.28:767][621]LogAIModule: Creating AISystem for world The_Bends_Level_01
+[2018.05.22-22.57.28:843][621]Cmd: MAP LOAD FILE="E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/Maps/The_Bends_Level_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.22-22.57.28:843][621]LightingResults: New page: Lighting Build
+[2018.05.22-22.57.28:845][621]LoadErrors: New page: Loading map: The_Bends_Level_01.umap
+[2018.05.22-22.57.28:849][621]MapCheck: New page: Map Check
+[2018.05.22-22.57.28:849][621]LightingResults: New page: Lighting Build
+[2018.05.22-22.57.28:976][621]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.22-22.57.29:019][621]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.22-22.57.29:100][621]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.663ms to complete.
+[2018.05.22-22.57.29:100][621]LogFileHelpers: Loading map 'The_Bends_Level_01' took 0.258
+[2018.05.22-22.57.53:961][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SmallTopWall10)
+[2018.05.22-22.57.55:077][428]LogEditorViewport: Clicking Background
+[2018.05.22-22.57.56:337][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SmallTopWall10)
+[2018.05.22-22.58.00:718][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_38)
+[2018.05.22-22.58.01:171][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_26)
+[2018.05.22-22.58.03:115][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SmallTopWall10)
+[2018.05.22-22.58.29:950][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_6)
+[2018.05.22-22.58.30:668][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_5)
+[2018.05.22-22.58.31:480][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor35)
+[2018.05.22-22.58.44:287][111]Cmd: DELETE
+[2018.05.22-22.58.44:287][111]Cmd: ACTOR DELETE
+[2018.05.22-22.58.44:299][111]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-22.58.44:309][111]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.22-22.58.45:528][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_20)
+[2018.05.22-22.58.49:376][709]Cmd: TRANSACTION UNDO
+[2018.05.22-22.58.49:376][709]LogEditorTransaction: Undo Move Actors
+[2018.05.22-22.58.49:389][709]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.22-22.59.38:057][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_82)
+[2018.05.22-22.59.50:017][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_83)
+[2018.05.22-22.59.50:432][907]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_82)
+[2018.05.22-22.59.50:798][940]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_81)
+[2018.05.22-22.59.54:391][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_81)
+[2018.05.22-22.59.54:785][391]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_82)
+[2018.05.22-22.59.55:092][420]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_83)
+[2018.05.22-22.59.59:671][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_82)
+[2018.05.22-23.00.10:259][983]LogSlate: Took 0.018409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.22-23.00.16:159][667]Cmd: TRANSACTION UNDO
+[2018.05.22-23.00.16:159][667]LogEditorTransaction: Undo Scale Actors
+[2018.05.22-23.00.17:349][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_86)
+[2018.05.22-23.00.18:221][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_82)
+[2018.05.22-23.00.33:580][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_86)
+[2018.05.22-23.00.39:159][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_82)
+[2018.05.22-23.01.02:354][942]LogEditorViewport: Clicking Background
+[2018.05.22-23.01.03:161][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_82)
+[2018.05.22-23.01.03:722][ 96]LogEditorViewport: Clicking Background
+[2018.05.22-23.01.06:099][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_82)
+[2018.05.22-23.01.13:321][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KitchenWall3)
+[2018.05.22-23.01.14:084][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_84)
+[2018.05.22-23.01.19:622][884]Cmd: TRANSACTION UNDO
+[2018.05.22-23.01.19:622][884]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.01.40:940][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_84)
+[2018.05.22-23.01.41:592][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_90)
+[2018.05.22-23.01.42:279][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_84)
+[2018.05.22-23.01.44:111][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_90)
+[2018.05.22-23.01.47:469][895]Cmd: TRANSACTION UNDO
+[2018.05.22-23.01.47:469][895]LogEditorTransaction: Undo Scale Actors
+[2018.05.22-23.01.51:513][352]Cmd: TRANSACTION UNDO
+[2018.05.22-23.01.51:513][352]LogEditorTransaction: Undo Scale Actors
+[2018.05.22-23.01.56:791][956]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Section_Engi_Floor_90)
+[2018.05.22-23.01.57:554][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_84)
+[2018.05.22-23.01.58:030][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_90)
+[2018.05.22-23.01.59:123][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_90)
+[2018.05.22-23.01.59:535][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_84)
+[2018.05.22-23.02.00:052][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_90)
+[2018.05.22-23.02.00:437][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_85)
+[2018.05.22-23.02.00:901][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_90)
+[2018.05.22-23.02.01:595][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_85)
+[2018.05.22-23.02.03:397][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_90)
+[2018.05.22-23.02.07:717][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_84)
+[2018.05.22-23.02.08:340][219]Cmd: DELETE
+[2018.05.22-23.02.08:340][219]Cmd: ACTOR DELETE
+[2018.05.22-23.02.08:341][219]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.02.08:350][219]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.02.09:601][369]Cmd: TRANSACTION UNDO
+[2018.05.22-23.02.09:601][369]LogEditorTransaction: Undo Delete Actors
+[2018.05.22-23.02.09:956][395]Cmd: TRANSACTION UNDO
+[2018.05.22-23.02.09:956][395]LogEditorTransaction: Undo Scale Actors
+[2018.05.22-23.02.11:072][516]Cmd: DELETE
+[2018.05.22-23.02.11:072][516]Cmd: ACTOR DELETE
+[2018.05.22-23.02.11:073][516]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.02.11:082][516]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.02.14:201][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KitchenWall3)
+[2018.05.22-23.02.39:015][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KitchenWall13)
+[2018.05.22-23.02.39:441][757]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (KitchenWall14)
+[2018.05.22-23.02.39:748][785]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (KitchenWall15)
+[2018.05.22-23.02.49:317][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KitchenWall18)
+[2018.05.22-23.02.57:546][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KitchenWall13)
+[2018.05.22-23.03.06:207][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KitchenWall15)
+[2018.05.22-23.03.40:449][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_85)
+[2018.05.22-23.03.41:097][  2]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_86)
+[2018.05.22-23.03.41:671][ 61]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_84)
+[2018.05.22-23.03.42:090][103]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_81)
+[2018.05.22-23.03.42:582][152]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_83)
+[2018.05.22-23.03.42:937][185]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_89)
+[2018.05.22-23.03.43:412][231]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_88)
+[2018.05.22-23.03.43:753][263]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_87)
+[2018.05.22-23.04.01:349][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_91)
+[2018.05.22-23.04.03:869][478]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_91)
+[2018.05.22-23.04.04:171][505]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_94)
+[2018.05.22-23.04.04:465][532]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_93)
+[2018.05.22-23.04.05:058][594]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_96)
+[2018.05.22-23.04.05:416][628]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_97)
+[2018.05.22-23.04.06:011][690]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_95)
+[2018.05.22-23.04.07:550][860]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_92)
+[2018.05.22-23.04.07:847][887]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_90)
+[2018.05.22-23.04.18:260][ 16]Cmd: TRANSACTION UNDO
+[2018.05.22-23.04.18:260][ 16]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.04.18:262][ 16]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/The_Bends_Level_01.The_Bends_Level_01:PersistentLevel.Section_Engi_Floor_94.StaticMeshComponent0) Component already registered.
+[2018.05.22-23.04.18:262][ 16]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/The_Bends_Level_01.The_Bends_Level_01:PersistentLevel.Section_Engi_Floor_93.StaticMeshComponent0) Component already registered.
+[2018.05.22-23.06.28:329][898]LogEditorViewport: Clicking Background
+[2018.05.22-23.07.54:537][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor12)
+[2018.05.22-23.07.55:202][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor11)
+[2018.05.22-23.07.55:641][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor12)
+[2018.05.22-23.07.56:967][663]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay11)
+[2018.05.22-23.07.57:461][713]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor12)
+[2018.05.22-23.07.57:891][754]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor11)
+[2018.05.22-23.07.59:519][924]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay12)
+[2018.05.22-23.08.00:821][ 61]LogEditorViewport: Clicking Background
+[2018.05.22-23.08.51:098][913]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.05.22-23.10.22:965][274]LogActorFactory: Actor Factory created bends_corridor_a_door
+[2018.05.22-23.10.24:421][441]LogActorFactory: Actor Factory created bends_corridor_a_door
+[2018.05.22-23.10.51:329][557]Cmd: TRANSACTION UNDO
+[2018.05.22-23.10.51:329][557]LogEditorTransaction: Undo Scale Actors
+[2018.05.22-23.10.51:854][592]Cmd: TRANSACTION UNDO
+[2018.05.22-23.10.51:854][592]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.10.53:334][765]Cmd: TRANSACTION REDO
+[2018.05.22-23.10.53:334][765]LogEditorTransaction: Redo Move Actors
+[2018.05.22-23.11.23:161][200]LogActorFactory: Actor Factory created bends_corridor_a_corner
+[2018.05.22-23.11.23:743][264]LogActorFactory: Actor Factory created bends_corridor_a_corner
+[2018.05.22-23.11.29:475][918]Cmd: TRANSACTION UNDO
+[2018.05.22-23.11.29:475][918]LogEditorTransaction: Undo Rotate Actors
+[2018.05.22-23.11.30:114][977]Cmd: TRANSACTION UNDO
+[2018.05.22-23.11.30:114][977]LogEditorTransaction: Undo Create Actors
+[2018.05.22-23.11.33:138][311]LogActorFactory: Actor Factory created bends_corridor_a_corner
+[2018.05.22-23.11.33:423][343]LogActorFactory: Actor Factory created bends_corridor_a_corner
+[2018.05.22-23.11.56:713][724]LogActorFactory: Actor Factory created bends_corridor_a_1
+[2018.05.22-23.11.57:712][836]LogActorFactory: Actor Factory created bends_corridor_a_1
+[2018.05.22-23.12.09:695][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_8)
+[2018.05.22-23.12.17:445][639]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_8)
+[2018.05.22-23.12.17:789][672]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_9)
+[2018.05.22-23.12.20:940][ 30]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_8)
+[2018.05.22-23.12.21:362][ 73]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_9)
+[2018.05.22-23.12.43:354][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_15)
+[2018.05.22-23.12.43:923][715]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_14)
+[2018.05.22-23.12.48:678][249]LogActorFactory: Actor Factory created bends_corridor_a_junction
+[2018.05.22-23.12.49:025][287]LogActorFactory: Actor Factory created bends_corridor_a_junction
+[2018.05.22-23.13.11:114][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_16)
+[2018.05.22-23.13.27:507][591]Cmd: STAT FPS
+[2018.05.22-23.13.52:515][134]Cmd: STAT Engine
+[2018.05.22-23.13.54:691][377]LogEditorViewport: Clicking Background
+[2018.05.22-23.14.00:267][ 10]Cmd: STAT GPUParticles
+[2018.05.22-23.14.05:228][566]Cmd: STAT Engine
+[2018.05.22-23.14.12:377][365]Cmd: STAT Game
+[2018.05.22-23.14.19:637][198]Cmd: STAT GPUParticles
+[2018.05.22-23.14.26:435][977]Cmd: STAT Game
+[2018.05.22-23.14.29:643][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_19)
+[2018.05.22-23.14.51:576][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_2_DoorWay25)
+[2018.05.22-23.14.52:370][959]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay26)
+[2018.05.22-23.14.52:873][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay24)
+[2018.05.22-23.14.53:791][110]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor21)
+[2018.05.22-23.14.54:534][190]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor24)
+[2018.05.22-23.14.55:052][244]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor22)
+[2018.05.22-23.14.55:997][349]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor25)
+[2018.05.22-23.14.56:491][400]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor26)
+[2018.05.22-23.14.59:984][793]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay22)
+[2018.05.22-23.15.03:906][216]Cmd: EDIT CUT
+[2018.05.22-23.15.03:911][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.15.03:911][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.15.03:911][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.15.03:911][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.15.03:911][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.15.03:911][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.15.03:911][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.15.03:911][216]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.15.03:921][216]LogEditorActor: Deleted 8 Actors (0.010 secs)
+[2018.05.22-23.15.03:921][216]Cmd: TRANSACTION UNDO
+[2018.05.22-23.15.03:921][216]LogEditorTransaction: Undo Cut
+[2018.05.22-23.15.04:222][238]Cmd: TRANSACTION UNDO
+[2018.05.22-23.15.04:222][238]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.15.04:223][238]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/The_Bends_Level_01.The_Bends_Level_01:PersistentLevel.Section_B_Floor24.StaticMeshComponent0) Component already registered.
+[2018.05.22-23.15.04:646][282]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay21)
+[2018.05.22-23.15.05:432][368]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay23)
+[2018.05.22-23.15.13:718][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor38)
+[2018.05.22-23.15.17:263][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor37)
+[2018.05.22-23.15.46:353][235]LogSavePackage: Save=202.47ms
+[2018.05.22-23.15.46:353][235]LogSavePackage: Moving 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/The_Bends_Level_01_Auto1EFF0CE2A43B8129DCFD4AD96FB3D3009.tmp' to 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto1.umap'
+[2018.05.22-23.15.46:355][235]LogSavePackage:Display: Finished SavePackage E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto1.umap
+[2018.05.22-23.15.46:373][235]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/The_Bends_Level_01' took 0.244
+[2018.05.22-23.15.46:373][235]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.244
+[2018.05.22-23.16.29:000][687]LogEditorViewport: Clicking Background
+[2018.05.22-23.16.29:747][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_2_DoorWay29)
+[2018.05.22-23.16.34:003][259]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor38)
+[2018.05.22-23.16.34:292][276]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor42)
+[2018.05.22-23.16.34:595][299]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor37)
+[2018.05.22-23.16.36:158][449]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor41)
+[2018.05.22-23.16.36:600][479]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor40)
+[2018.05.22-23.16.37:362][560]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay34)
+[2018.05.22-23.16.38:951][740]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay30)
+[2018.05.22-23.16.39:486][796]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay32)
+[2018.05.22-23.16.40:762][918]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay31)
+[2018.05.22-23.16.41:267][958]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay33)
+[2018.05.22-23.16.50:350][386]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor39)
+[2018.05.22-23.17.27:165][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_20)
+[2018.05.22-23.17.28:294][968]Cmd: DELETE
+[2018.05.22-23.17.28:294][968]Cmd: ACTOR DELETE
+[2018.05.22-23.17.28:296][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.17.28:304][968]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.05.22-23.17.28:956][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_21)
+[2018.05.22-23.17.33:324][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_21)
+[2018.05.22-23.17.34:070][646]Cmd: DELETE
+[2018.05.22-23.17.34:070][646]Cmd: ACTOR DELETE
+[2018.05.22-23.17.34:071][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.17.34:080][646]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.05.22-23.17.39:641][307]LogActorFactory: Actor Factory created bends_corridor_a_corner
+[2018.05.22-23.17.40:730][437]LogActorFactory: Actor Factory created bends_corridor_a_corner
+[2018.05.22-23.17.42:620][655]Cmd: DELETE
+[2018.05.22-23.17.42:621][655]Cmd: ACTOR DELETE
+[2018.05.22-23.17.42:622][655]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.17.42:631][655]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.05.22-23.17.43:108][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_junction)
+[2018.05.22-23.17.47:446][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_junction2)
+[2018.05.22-23.18.02:207][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_junction)
+[2018.05.22-23.18.06:222][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_19)
+[2018.05.22-23.18.06:934][467]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_18)
+[2018.05.22-23.18.10:283][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_16)
+[2018.05.22-23.18.11:151][943]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_17)
+[2018.05.22-23.18.22:188][203]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_junction3)
+[2018.05.22-23.18.46:826][369]LogEditorViewport: Clicking Background
+[2018.05.22-23.19.05:198][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_junction5)
+[2018.05.22-23.19.07:958][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_25)
+[2018.05.22-23.19.08:623][976]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_24)
+[2018.05.22-23.19.09:307][ 50]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_22)
+[2018.05.22-23.19.10:080][135]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_23)
+[2018.05.22-23.19.22:958][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_2_DoorWay33)
+[2018.05.22-23.19.24:133][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_2_DoorWay29)
+[2018.05.22-23.19.27:319][ 59]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay31)
+[2018.05.22-23.19.27:823][110]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay33)
+[2018.05.22-23.19.28:214][149]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay35)
+[2018.05.22-23.19.28:642][192]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay37)
+[2018.05.22-23.19.29:905][318]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay39)
+[2018.05.22-23.19.30:855][413]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor41)
+[2018.05.22-23.19.31:735][509]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor38)
+[2018.05.22-23.19.32:374][577]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor40)
+[2018.05.22-23.19.32:826][622]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor47)
+[2018.05.22-23.19.33:303][670]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor44)
+[2018.05.22-23.19.33:762][716]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor46)
+[2018.05.22-23.19.35:271][865]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor37)
+[2018.05.22-23.19.35:684][897]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay30)
+[2018.05.22-23.19.36:080][935]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor39)
+[2018.05.22-23.19.36:806][ 12]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay32)
+[2018.05.22-23.19.37:251][ 56]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor42)
+[2018.05.22-23.19.37:732][103]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay34)
+[2018.05.22-23.19.38:223][152]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor43)
+[2018.05.22-23.19.38:553][182]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay36)
+[2018.05.22-23.19.38:980][223]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor48)
+[2018.05.22-23.19.39:372][260]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay38)
+[2018.05.22-23.19.39:973][321]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_2_DoorWay40)
+[2018.05.22-23.19.40:327][354]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_B_Floor45)
+[2018.05.22-23.19.52:326][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_28)
+[2018.05.22-23.19.52:907][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_junction5)
+[2018.05.22-23.19.54:651][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_29)
+[2018.05.22-23.19.55:070][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_28)
+[2018.05.22-23.19.55:821][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_junction5)
+[2018.05.22-23.19.56:244][ 29]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_28)
+[2018.05.22-23.19.56:548][ 55]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_29)
+[2018.05.22-23.19.56:890][ 88]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_27)
+[2018.05.22-23.19.57:398][141]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_26)
+[2018.05.22-23.19.58:863][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_26)
+[2018.05.22-23.19.59:981][431]Cmd: TRANSACTION UNDO
+[2018.05.22-23.19.59:981][431]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.20.00:704][503]Cmd: TRANSACTION UNDO
+[2018.05.22-23.20.00:704][503]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.22-23.20.04:454][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_25)
+[2018.05.22-23.20.04:927][983]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (bends_corridor_a_24)
+[2018.05.22-23.20.09:596][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_junction5)
+[2018.05.22-23.20.14:163][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_2_DoorWay56)
+[2018.05.22-23.20.36:914][724]LogActorFactory: Actor Factory created bends_corridor_a_door
+[2018.05.22-23.20.37:410][779]LogActorFactory: Actor Factory created bends_corridor_a_door
+[2018.05.22-23.20.53:633][642]LogEditorViewport: Clicking Background
+[2018.05.22-23.20.54:200][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_door3)
+[2018.05.22-23.22.38:260][596]LogActorFactory: Actor Factory created Bends_Bridge
+[2018.05.22-23.22.38:635][635]LogActorFactory: Actor Factory created Bends_Bridge
+[2018.05.22-23.22.54:763][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge)
+[2018.05.22-23.22.55:761][550]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge2)
+[2018.05.22-23.23.03:078][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge)
+[2018.05.22-23.23.03:520][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge2)
+[2018.05.22-23.23.07:656][864]LogActorFactory: Actor Factory created Bends_Bridge_Wall
+[2018.05.22-23.23.08:883][991]LogActorFactory: Actor Factory created Bends_Bridge_Wall
+[2018.05.22-23.23.19:314][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bends_corridor_a_door3)
+[2018.05.22-23.23.22:050][492]Cmd: MODE GRID=0
+[2018.05.22-23.23.56:245][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall)
+[2018.05.22-23.24.03:420][657]Cmd: TRANSACTION UNDO
+[2018.05.22-23.24.03:420][657]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.24.05:458][838]Cmd: MODE GRID=1
+[2018.05.22-23.24.20:660][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall)
+[2018.05.22-23.24.22:416][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge3)
+[2018.05.22-23.24.23:077][820]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.24.23:670][882]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge2)
+[2018.05.22-23.24.24:209][938]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge5)
+[2018.05.22-23.24.24:707][989]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge)
+[2018.05.22-23.24.33:363][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge5)
+[2018.05.22-23.24.45:476][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.24.53:261][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.24.54:080][158]Cmd: DELETE
+[2018.05.22-23.24.54:080][158]Cmd: ACTOR DELETE
+[2018.05.22-23.24.54:082][158]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.24.54:090][158]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.24.54:494][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall)
+[2018.05.22-23.24.54:616][213]Cmd: DELETE
+[2018.05.22-23.24.54:616][213]Cmd: ACTOR DELETE
+[2018.05.22-23.24.54:618][213]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.24.54:626][213]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.24.56:419][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.25.16:663][608]Cmd: DELETE
+[2018.05.22-23.25.16:663][608]Cmd: ACTOR DELETE
+[2018.05.22-23.25.16:664][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.25.16:674][608]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.22-23.25.47:612][923]LogActorFactory: Actor Factory created Silo_Pillar
+[2018.05.22-23.25.48:418][ 17]LogActorFactory: Actor Factory created Silo_Pillar
+[2018.05.22-23.25.54:164][576]LogSavePackage: Save=264.61ms
+[2018.05.22-23.25.54:164][576]LogSavePackage: Moving 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/The_Bends_Level_01_Auto2FB67711B4946915B9A7A3F95FBE6D2E2.tmp' to 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto2.umap'
+[2018.05.22-23.25.54:165][576]LogSavePackage:Display: Finished SavePackage E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto2.umap
+[2018.05.22-23.25.54:168][576]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/The_Bends_Level_01' took 0.293
+[2018.05.22-23.25.54:168][576]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.293
+[2018.05.22-23.26.10:486][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.26.29:365][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.26.35:093][  2]Cmd: TRANSACTION UNDO
+[2018.05.22-23.26.35:093][  2]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.26.35:728][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.26.39:446][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge2)
+[2018.05.22-23.26.40:150][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge5)
+[2018.05.22-23.26.40:896][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.26.41:378][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall5)
+[2018.05.22-23.26.41:837][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge5)
+[2018.05.22-23.26.43:190][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.26.44:194][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.26.44:843][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.26.48:973][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silo_Pillar2)
+[2018.05.22-23.26.52:376][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silo_Pillar)
+[2018.05.22-23.26.57:031][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.27.03:619][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall5)
+[2018.05.22-23.27.14:045][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge5)
+[2018.05.22-23.27.19:023][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall6)
+[2018.05.22-23.27.40:803][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall5)
+[2018.05.22-23.27.46:955][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall5)
+[2018.05.22-23.28.24:902][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.28.26:922][518]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.28.30:658][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.28.32:735][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.28.35:120][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.28.35:886][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.28.37:986][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.28.38:737][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.28.41:642][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.28.54:509][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.28.57:425][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.28.59:746][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.29.04:930][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.29.24:169][497]Cmd: DELETE
+[2018.05.22-23.29.24:169][497]Cmd: ACTOR DELETE
+[2018.05.22-23.29.24:170][497]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.29.24:179][497]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.29.24:659][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge8)
+[2018.05.22-23.29.25:247][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge9)
+[2018.05.22-23.29.25:669][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge6)
+[2018.05.22-23.29.26:170][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge7)
+[2018.05.22-23.29.28:551][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall8)
+[2018.05.22-23.29.29:109][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall8)
+[2018.05.22-23.29.29:726][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall11)
+[2018.05.22-23.29.30:198][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall12)
+[2018.05.22-23.29.34:252][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge8)
+[2018.05.22-23.29.34:839][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall12)
+[2018.05.22-23.29.35:161][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge8)
+[2018.05.22-23.29.35:498][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall11)
+[2018.05.22-23.29.36:882][795]Cmd: DELETE
+[2018.05.22-23.29.36:882][795]Cmd: ACTOR DELETE
+[2018.05.22-23.29.36:884][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.29.36:892][795]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.29.37:299][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall12)
+[2018.05.22-23.29.37:420][849]Cmd: DELETE
+[2018.05.22-23.29.37:420][849]Cmd: ACTOR DELETE
+[2018.05.22-23.29.37:422][849]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.29.37:431][849]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.22-23.29.37:804][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall10)
+[2018.05.22-23.29.37:903][897]Cmd: DELETE
+[2018.05.22-23.29.37:903][897]Cmd: ACTOR DELETE
+[2018.05.22-23.29.37:904][897]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.29.37:914][897]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.22-23.29.38:723][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall9)
+[2018.05.22-23.29.38:857][  1]Cmd: DELETE
+[2018.05.22-23.29.38:857][  1]Cmd: ACTOR DELETE
+[2018.05.22-23.29.38:858][  1]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.29.38:867][  1]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.29.40:244][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall8)
+[2018.05.22-23.29.40:396][175]Cmd: DELETE
+[2018.05.22-23.29.40:396][175]Cmd: ACTOR DELETE
+[2018.05.22-23.29.40:397][175]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.29.40:406][175]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.29.40:746][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall7)
+[2018.05.22-23.29.40:880][223]Cmd: DELETE
+[2018.05.22-23.29.40:880][223]Cmd: ACTOR DELETE
+[2018.05.22-23.29.40:881][223]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.29.40:889][223]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.29.41:478][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.29.41:584][297]Cmd: DELETE
+[2018.05.22-23.29.41:585][297]Cmd: ACTOR DELETE
+[2018.05.22-23.29.41:586][297]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.29.41:594][297]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.29.44:528][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge)
+[2018.05.22-23.29.45:377][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge2)
+[2018.05.22-23.29.46:577][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.29.47:180][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall5)
+[2018.05.22-23.29.47:850][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.29.49:471][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.29.51:087][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.29.56:458][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.29.57:440][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall3)
+[2018.05.22-23.29.58:239][ 26]Cmd: DELETE
+[2018.05.22-23.29.58:239][ 26]Cmd: ACTOR DELETE
+[2018.05.22-23.29.58:240][ 26]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.29.58:249][ 26]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.29.58:836][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall5)
+[2018.05.22-23.30.01:393][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.30.04:604][692]Cmd: TRANSACTION UNDO
+[2018.05.22-23.30.04:604][692]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.30.13:721][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall5)
+[2018.05.22-23.30.19:704][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge3)
+[2018.05.22-23.30.20:575][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall8)
+[2018.05.22-23.30.22:079][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge10)
+[2018.05.22-23.30.23:358][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall9)
+[2018.05.22-23.30.23:855][659]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall8)
+[2018.05.22-23.30.25:295][807]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall7)
+[2018.05.22-23.30.29:378][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall12)
+[2018.05.22-23.30.57:065][  1]LogActorFactory: Actor Factory created Silo_Misslew
+[2018.05.22-23.30.58:507][145]LogActorFactory: Actor Factory created Silo_Misslew
+[2018.05.22-23.31.05:081][803]Cmd: DELETE
+[2018.05.22-23.31.05:081][803]Cmd: ACTOR DELETE
+[2018.05.22-23.31.05:082][803]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.31.05:091][803]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.22-23.31.07:541][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge5)
+[2018.05.22-23.31.08:097][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge11)
+[2018.05.22-23.31.08:565][179]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge12)
+[2018.05.22-23.31.11:888][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge12)
+[2018.05.22-23.31.17:147][ 45]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge5)
+[2018.05.22-23.31.17:576][ 76]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge2)
+[2018.05.22-23.31.18:152][132]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge)
+[2018.05.22-23.31.18:576][171]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge4)
+[2018.05.22-23.31.18:952][205]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge3)
+[2018.05.22-23.31.19:416][248]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge10)
+[2018.05.22-23.31.19:991][303]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge7)
+[2018.05.22-23.31.21:287][437]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge9)
+[2018.05.22-23.31.21:897][496]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge6)
+[2018.05.22-23.31.22:571][561]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge8)
+[2018.05.22-23.31.26:194][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge24)
+[2018.05.22-23.31.26:818][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge18)
+[2018.05.22-23.31.27:663][ 77]Cmd: TRANSACTION UNDO
+[2018.05.22-23.31.27:663][ 77]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.22-23.31.27:898][ 92]Cmd: TRANSACTION UNDO
+[2018.05.22-23.31.27:898][ 92]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.22-23.31.32:531][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge11)
+[2018.05.22-23.31.33:054][597]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge12)
+[2018.05.22-23.31.42:577][595]Cmd: DELETE
+[2018.05.22-23.31.42:577][595]Cmd: ACTOR DELETE
+[2018.05.22-23.31.42:579][595]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.31.42:579][595]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.31.42:588][595]LogEditorActor: Deleted 2 Actors (0.010 secs)
+[2018.05.22-23.31.43:662][723]Cmd: TRANSACTION UNDO
+[2018.05.22-23.31.43:662][723]LogEditorTransaction: Undo Delete Actors
+[2018.05.22-23.31.43:863][735]Cmd: TRANSACTION UNDO
+[2018.05.22-23.31.43:863][735]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.31.44:074][747]Cmd: TRANSACTION UNDO
+[2018.05.22-23.31.44:074][747]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.31.44:277][761]Cmd: TRANSACTION UNDO
+[2018.05.22-23.31.44:277][761]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.31.56:516][ 50]LogActorFactory: Actor Factory created Silo_Misslew
+[2018.05.22-23.31.58:007][194]LogActorFactory: Actor Factory created Silo_Misslew
+[2018.05.22-23.32.27:064][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall12)
+[2018.05.22-23.32.55:766][317]Cmd: TRANSACTION UNDO
+[2018.05.22-23.32.55:766][317]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.32.56:231][346]Cmd: TRANSACTION UNDO
+[2018.05.22-23.32.56:231][346]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.32.56:607][382]Cmd: TRANSACTION UNDO
+[2018.05.22-23.32.56:607][382]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.32.57:008][425]Cmd: TRANSACTION UNDO
+[2018.05.22-23.32.57:008][425]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.32.57:392][466]Cmd: TRANSACTION UNDO
+[2018.05.22-23.32.57:392][466]LogEditorTransaction: Undo Rotate Actors
+[2018.05.22-23.33.03:642][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall6)
+[2018.05.22-23.33.21:284][966]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall15)
+[2018.05.22-23.33.22:188][ 58]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall16)
+[2018.05.22-23.33.23:922][228]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall14)
+[2018.05.22-23.33.41:224][ 62]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall16)
+[2018.05.22-23.33.43:820][330]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall16)
+[2018.05.22-23.33.44:491][397]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall17)
+[2018.05.22-23.33.49:308][877]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall15)
+[2018.05.22-23.33.49:795][919]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall14)
+[2018.05.22-23.34.01:942][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall23)
+[2018.05.22-23.34.02:570][215]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall22)
+[2018.05.22-23.34.05:531][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall18)
+[2018.05.22-23.34.17:457][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge32)
+[2018.05.22-23.34.20:378][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silo_Misslew)
+[2018.05.22-23.34.23:458][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall19)
+[2018.05.22-23.34.26:406][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall17)
+[2018.05.22-23.34.29:028][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall16)
+[2018.05.22-23.34.31:967][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall21)
+[2018.05.22-23.34.32:396][255]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall20)
+[2018.05.22-23.35.34:910][230]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall23)
+[2018.05.22-23.35.35:664][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall22)
+[2018.05.22-23.35.36:884][436]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall23)
+[2018.05.22-23.35.37:779][527]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall28)
+[2018.05.22-23.35.38:776][622]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall28)
+[2018.05.22-23.35.39:147][656]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall29)
+[2018.05.22-23.35.40:719][816]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall24)
+[2018.05.22-23.35.41:045][844]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall25)
+[2018.05.22-23.35.42:479][975]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall26)
+[2018.05.22-23.35.42:817][995]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall27)
+[2018.05.22-23.35.49:835][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge33)
+[2018.05.22-23.35.50:416][792]Cmd: TRANSACTION UNDO
+[2018.05.22-23.35.50:416][792]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.22-23.36.20:342][428]LogSavePackage: Save=308.90ms
+[2018.05.22-23.36.20:342][428]LogSavePackage: Moving 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/The_Bends_Level_01_Auto387736D3243119BF04E49419D0C24C11A.tmp' to 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto3.umap'
+[2018.05.22-23.36.20:343][428]LogSavePackage:Display: Finished SavePackage E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto3.umap
+[2018.05.22-23.36.20:346][428]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/The_Bends_Level_01' took 0.338
+[2018.05.22-23.36.20:346][428]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.338
+[2018.05.22-23.37.16:351][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall6)
+[2018.05.22-23.37.26:739][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall6)
+[2018.05.22-23.37.27:247][944]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall38)
+[2018.05.22-23.37.27:601][974]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall39)
+[2018.05.22-23.37.28:469][ 56]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall40)
+[2018.05.22-23.37.28:860][ 92]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall39)
+[2018.05.22-23.37.35:389][755]Cmd: TRANSACTION UNDO
+[2018.05.22-23.37.35:389][755]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.37.35:391][755]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/The_Bends_Level_01.The_Bends_Level_01:PersistentLevel.Bends_Bridge_Wall40.StaticMeshComponent0) Component already registered.
+[2018.05.22-23.37.38:437][ 51]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Bends_Bridge_Wall43)
+[2018.05.22-23.37.41:557][285]Cmd: ACTOR MIRROR X=-1
+[2018.05.22-23.37.53:257][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor65)
+[2018.05.22-23.38.26:727][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge25)
+[2018.05.22-23.38.27:653][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_2_DoorWay56)
+[2018.05.22-23.38.28:304][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor61)
+[2018.05.22-23.38.29:453][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor66)
+[2018.05.22-23.38.33:767][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_2_DoorWay56)
+[2018.05.22-23.38.38:309][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall2)
+[2018.05.22-23.38.39:282][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall5)
+[2018.05.22-23.38.41:816][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall9)
+[2018.05.22-23.38.43:595][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall13)
+[2018.05.22-23.38.44:710][ 74]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall12)
+[2018.05.22-23.38.45:234][122]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall11)
+[2018.05.22-23.38.45:815][177]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall10)
+[2018.05.22-23.38.46:352][226]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall9)
+[2018.05.22-23.38.47:228][306]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall8)
+[2018.05.22-23.38.52:705][858]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Bends_Bridge_Wall46)
+[2018.05.22-23.38.55:679][ 86]Cmd: ACTOR MIRROR Y=-1
+[2018.05.22-23.39.03:646][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall47)
+[2018.05.22-23.39.04:079][874]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall46)
+[2018.05.22-23.39.04:474][909]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge_Wall45)
+[2018.05.22-23.39.07:959][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall53)
+[2018.05.22-23.39.12:595][699]LogActorFactory: Actor Factory created Silo_Pillar
+[2018.05.22-23.39.14:289][866]LogActorFactory: Actor Factory created Silo_Pillar
+[2018.05.22-23.40.06:478][160]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Silo_Pillar9)
+[2018.05.22-23.40.07:690][277]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Silo_Pillar8)
+[2018.05.22-23.40.08:593][362]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Silo_Pillar7)
+[2018.05.22-23.40.18:146][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silo_Misslew)
+[2018.05.22-23.40.21:150][597]Cmd: TRANSACTION UNDO
+[2018.05.22-23.40.21:150][597]LogEditorTransaction: Undo Move Actors
+[2018.05.22-23.40.46:834][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor51)
+[2018.05.22-23.40.47:944][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor54)
+[2018.05.22-23.40.48:883][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor49)
+[2018.05.22-23.40.51:789][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall48)
+[2018.05.22-23.40.53:447][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor49)
+[2018.05.22-23.40.54:360][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor53)
+[2018.05.22-23.40.55:502][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_2_DoorWay42)
+[2018.05.22-23.41.02:494][735]Cmd: DELETE
+[2018.05.22-23.41.02:494][735]Cmd: ACTOR DELETE
+[2018.05.22-23.41.02:495][735]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.41.02:506][735]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.22-23.41.10:405][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silo_Misslew)
+[2018.05.22-23.41.15:274][122]LogActorFactory: Actor Factory created Silo_Silo_Fences
+[2018.05.22-23.41.18:060][395]LogActorFactory: Actor Factory created Silo_Silo_Fences
+[2018.05.22-23.41.44:048][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silo_Silo_Fences3)
+[2018.05.22-23.41.44:846][ 75]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge17)
+[2018.05.22-23.41.46:102][203]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Silo_Silo_Fences)
+[2018.05.22-23.41.47:364][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge17)
+[2018.05.22-23.41.48:293][418]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Silo_Silo_Fences4)
+[2018.05.22-23.41.50:288][614]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Silo_Silo_Fences3)
+[2018.05.22-23.41.52:114][796]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Silo_Silo_Fences)
+[2018.05.22-23.41.53:482][931]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Silo_Silo_Fences2)
+[2018.05.22-23.42.10:303][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Silo_Misslew)
+[2018.05.22-23.42.30:934][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_25)
+[2018.05.22-23.42.38:038][437]Cmd: DELETE
+[2018.05.22-23.42.38:038][437]Cmd: ACTOR DELETE
+[2018.05.22-23.42.38:040][437]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.42.38:050][437]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.22-23.45.34:572][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.22-23.45.52:450][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor40)
+[2018.05.22-23.45.53:472][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor39)
+[2018.05.22-23.45.56:239][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_2_DoorWay33)
+[2018.05.22-23.46.22:797][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor38)
+[2018.05.22-23.46.24:007][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_2_DoorWay33)
+[2018.05.22-23.47.04:079][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_B_Floor40)
+[2018.05.22-23.47.04:657][643]LogEditorViewport: Clicking Background
+[2018.05.22-23.47.18:254][167]LogActorFactory: Actor Factory created Section_Engi_DoorWay
+[2018.05.22-23.47.19:549][311]LogActorFactory: Actor Factory created Section_Engi_DoorWay
+[2018.05.22-23.47.53:806][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge31)
+[2018.05.22-23.47.54:585][745]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge32)
+[2018.05.22-23.47.55:058][788]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge29)
+[2018.05.22-23.47.55:597][838]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge30)
+[2018.05.22-23.47.57:637][ 21]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge33)
+[2018.05.22-23.47.58:043][ 52]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge27)
+[2018.05.22-23.47.59:643][181]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge25)
+[2018.05.22-23.48.00:638][254]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge28)
+[2018.05.22-23.48.01:012][286]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge27)
+[2018.05.22-23.48.01:803][361]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge26)
+[2018.05.22-23.48.02:283][404]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Bends_Bridge24)
+[2018.05.22-23.48.36:360][690]LogEditorViewport: Clicking Background
+[2018.05.22-23.49.02:457][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bends_Bridge_Wall17)
+[2018.05.22-23.49.21:997][704]LogActorFactory: Actor Factory created Section_Engi_Floor_01
+[2018.05.22-23.49.24:415][933]LogActorFactory: Actor Factory created Section_Engi_Floor_01
+[2018.05.22-23.49.33:929][866]LogStaticMesh: Building static mesh Engi_UpperFloor_Stairs...
+[2018.05.22-23.49.33:969][866]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/Engnerring/Walls/Engi_UpperFloor_Stairs.Engi_UpperFloor_Stairs
+[2018.05.22-23.49.34:048][871]LogActorFactory: Actor Factory created Engi_UpperFloor_Stairs
+[2018.05.22-23.49.35:329][993]LogActorFactory: Actor Factory created Engi_UpperFloor_Stairs
+[2018.05.22-23.49.36:089][ 66]Cmd: TRANSACTION UNDO
+[2018.05.22-23.49.36:089][ 66]LogEditorTransaction: Undo Create Actors
+[2018.05.22-23.49.36:606][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_100)
+[2018.05.22-23.49.50:676][457]Cmd: DELETE
+[2018.05.22-23.49.50:676][457]Cmd: ACTOR DELETE
+[2018.05.22-23.49.50:678][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.22-23.49.50:688][457]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.05.22-23.49.52:105][625]LogEditorViewport: Clicking Background
+[2018.05.22-23.49.52:606][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_99)
+[2018.05.22-23.50.02:237][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_100)
+[2018.05.22-23.50.02:766][678]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_99)
+[2018.05.22-23.50.03:202][714]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_101)
+[2018.05.22-23.50.16:987][ 36]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_113)
+[2018.05.22-23.50.17:360][ 68]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_111)
+[2018.05.22-23.50.17:761][103]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_112)
+[2018.05.22-23.50.18:163][138]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_109)
+[2018.05.22-23.50.18:821][193]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_108)
+[2018.05.22-23.50.19:128][218]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_110)
+[2018.05.22-23.50.29:672][189]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_128)
+[2018.05.22-23.50.29:990][214]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_126)
+[2018.05.22-23.50.30:366][246]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_127)
+[2018.05.22-23.50.30:681][266]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_130)
+[2018.05.22-23.50.31:039][296]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_133)
+[2018.05.22-23.50.31:383][323]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_132)
+[2018.05.22-23.50.31:707][349]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_129)
+[2018.05.22-23.50.32:023][374]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_131)
+[2018.05.22-23.50.32:370][402]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_134)
+[2018.05.22-23.50.57:257][823]LogEditorViewport: Clicking Background
+[2018.05.22-23.51.03:526][481]LogSavePackage: Save=413.20ms
+[2018.05.22-23.51.03:526][481]LogSavePackage: Moving 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/The_Bends_Level_01_Auto4860B9C164AEDD5042C05A3BAEB2ACC13.tmp' to 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto4.umap'
+[2018.05.22-23.51.03:527][481]LogSavePackage:Display: Finished SavePackage E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto4.umap
+[2018.05.22-23.51.03:530][481]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/The_Bends_Level_01' took 0.444
+[2018.05.22-23.51.03:530][481]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.444
+[2018.05.23-00.02.22:517][ 86]LogActorFactory: Actor Factory created Section_Engi_Floor_02L
+[2018.05.23-00.02.23:116][144]LogActorFactory: Actor Factory created Section_Engi_Floor_02L
+[2018.05.23-00.02.27:815][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_152)
+[2018.05.23-00.02.30:113][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02L)
+[2018.05.23-00.02.30:846][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02L)
+[2018.05.23-00.02.31:399][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02L)
+[2018.05.23-00.02.55:853][297]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Section_Engi_Floor_150)
+[2018.05.23-00.02.56:687][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02L)
+[2018.05.23-00.03.04:292][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_152)
+[2018.05.23-00.03.04:630][137]Cmd: DELETE
+[2018.05.23-00.03.04:630][137]Cmd: ACTOR DELETE
+[2018.05.23-00.03.04:632][137]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.04:669][137]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.05.23-00.03.05:455][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_149)
+[2018.05.23-00.03.05:543][233]Cmd: DELETE
+[2018.05.23-00.03.05:543][233]Cmd: ACTOR DELETE
+[2018.05.23-00.03.05:545][233]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.05:554][233]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.23-00.03.05:918][276]LogEditorViewport: Clicking Background
+[2018.05.23-00.03.06:258][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_146)
+[2018.05.23-00.03.06:524][337]Cmd: DELETE
+[2018.05.23-00.03.06:524][337]Cmd: ACTOR DELETE
+[2018.05.23-00.03.06:526][337]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.06:536][337]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.23-00.03.06:781][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_161)
+[2018.05.23-00.03.07:019][377]Cmd: DELETE
+[2018.05.23-00.03.07:019][377]Cmd: ACTOR DELETE
+[2018.05.23-00.03.07:021][377]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.07:031][377]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.05.23-00.03.07:437][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_158)
+[2018.05.23-00.03.08:133][492]Cmd: DELETE
+[2018.05.23-00.03.08:133][492]Cmd: ACTOR DELETE
+[2018.05.23-00.03.08:135][492]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.08:145][492]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.05.23-00.03.08:684][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_155)
+[2018.05.23-00.03.08:771][552]Cmd: DELETE
+[2018.05.23-00.03.08:771][552]Cmd: ACTOR DELETE
+[2018.05.23-00.03.08:773][552]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.08:782][552]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.23-00.03.09:587][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02L)
+[2018.05.23-00.03.13:621][ 10]LogActorFactory: Actor Factory created Section_Engi_Floor_02L
+[2018.05.23-00.03.14:199][ 65]LogActorFactory: Actor Factory created Section_Engi_Floor_02L
+[2018.05.23-00.03.15:938][236]Cmd: DELETE
+[2018.05.23-00.03.15:938][236]Cmd: ACTOR DELETE
+[2018.05.23-00.03.15:939][236]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.15:949][236]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.23-00.03.16:466][291]LogActorFactory: Actor Factory created Section_Engi_Floor_02R
+[2018.05.23-00.03.16:897][334]LogActorFactory: Actor Factory created Section_Engi_Floor_02R
+[2018.05.23-00.03.26:893][282]LogActorFactory: Actor Factory created Section_Engi_Roof_01C
+[2018.05.23-00.03.27:241][315]LogActorFactory: Actor Factory created Section_Engi_Roof_01C
+[2018.05.23-00.03.37:817][362]Cmd: DELETE
+[2018.05.23-00.03.37:817][362]Cmd: ACTOR DELETE
+[2018.05.23-00.03.37:818][362]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.37:829][362]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.05.23-00.03.40:213][627]LogActorFactory: Actor Factory created Section_Engi_Floor_01
+[2018.05.23-00.03.41:407][755]LogActorFactory: Actor Factory created Section_Engi_Floor_01
+[2018.05.23-00.03.42:132][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02R)
+[2018.05.23-00.03.42:897][894]Cmd: DELETE
+[2018.05.23-00.03.42:897][894]Cmd: ACTOR DELETE
+[2018.05.23-00.03.42:899][894]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.42:910][894]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.23-00.03.43:352][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_146)
+[2018.05.23-00.03.43:443][948]Cmd: DELETE
+[2018.05.23-00.03.43:443][948]Cmd: ACTOR DELETE
+[2018.05.23-00.03.43:445][948]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.43:455][948]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.05.23-00.03.44:595][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02L)
+[2018.05.23-00.03.49:546][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_147)
+[2018.05.23-00.03.50:784][660]Cmd: DELETE
+[2018.05.23-00.03.50:784][660]Cmd: ACTOR DELETE
+[2018.05.23-00.03.50:786][660]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.50:797][660]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.23-00.03.51:361][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_150)
+[2018.05.23-00.03.51:571][742]Cmd: DELETE
+[2018.05.23-00.03.51:571][742]Cmd: ACTOR DELETE
+[2018.05.23-00.03.51:573][742]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.03.51:584][742]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.23-00.03.52:028][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02L2)
+[2018.05.23-00.03.52:928][875]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_02L)
+[2018.05.23-00.03.59:020][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_144)
+[2018.05.23-00.04.00:042][585]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_159)
+[2018.05.23-00.04.01:625][736]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_156)
+[2018.05.23-00.04.02:396][810]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_153)
+[2018.05.23-00.04.26:278][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_139)
+[2018.05.23-00.04.26:731][269]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_136)
+[2018.05.23-00.04.27:362][328]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_135)
+[2018.05.23-00.04.28:353][419]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_138)
+[2018.05.23-00.04.28:721][444]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_135)
+[2018.05.23-00.04.29:549][526]Cmd: DELETE
+[2018.05.23-00.04.29:549][526]Cmd: ACTOR DELETE
+[2018.05.23-00.04.29:551][526]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.04.29:551][526]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.04.29:551][526]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.04.29:551][526]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.04.29:562][526]LogEditorActor: Deleted 4 Actors (0.013 secs)
+[2018.05.23-00.04.30:603][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02L2)
+[2018.05.23-00.04.32:618][825]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_02L3)
+[2018.05.23-00.04.33:002][850]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_02L4)
+[2018.05.23-00.04.33:495][894]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_02L)
+[2018.05.23-00.04.41:677][701]LogEditorViewport: Clicking Background
+[2018.05.23-00.04.47:494][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_154)
+[2018.05.23-00.04.49:602][572]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_157)
+[2018.05.23-00.04.49:923][599]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_156)
+[2018.05.23-00.04.50:288][630]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_153)
+[2018.05.23-00.04.51:416][737]Cmd: DELETE
+[2018.05.23-00.04.51:416][737]Cmd: ACTOR DELETE
+[2018.05.23-00.04.51:418][737]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.04.51:418][737]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.04.51:418][737]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.04.51:418][737]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.04.51:428][737]LogEditorActor: Deleted 4 Actors (0.011 secs)
+[2018.05.23-00.04.52:939][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02L8)
+[2018.05.23-00.04.54:742][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_02L8)
+[2018.05.23-00.04.55:238][150]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_02L5)
+[2018.05.23-00.04.55:591][180]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_02L6)
+[2018.05.23-00.04.55:990][215]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Floor_02L7)
+[2018.05.23-00.05.04:137][994]LogActorFactory: Actor Factory created Engi_UpperFloor_01
+[2018.05.23-00.05.04:758][ 39]LogActorFactory: Actor Factory created Engi_UpperFloor_01
+[2018.05.23-00.05.18:118][378]LogActorFactory: Actor Factory created Engi_UpperFloor_Cornor
+[2018.05.23-00.05.19:154][469]LogActorFactory: Actor Factory created Engi_UpperFloor_Cornor
+[2018.05.23-00.05.29:390][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_01)
+[2018.05.23-00.05.30:288][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_Cornor)
+[2018.05.23-00.05.39:580][461]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Engi_UpperFloor_01)
+[2018.05.23-00.05.54:458][991]Cmd: DELETE
+[2018.05.23-00.05.54:458][991]Cmd: ACTOR DELETE
+[2018.05.23-00.05.54:460][991]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.05.54:460][991]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.05.54:471][991]LogEditorActor: Deleted 2 Actors (0.013 secs)
+[2018.05.23-00.06.09:464][695]LogActorFactory: Actor Factory created Section_Engi_Wall_03
+[2018.05.23-00.06.11:203][889]LogActorFactory: Actor Factory created Section_Engi_Wall_03
+[2018.05.23-00.06.28:077][625]LogActorFactory: Actor Factory created Section_Engi_Wall_04
+[2018.05.23-00.06.28:976][703]LogActorFactory: Actor Factory created Section_Engi_Wall_04
+[2018.05.23-00.06.43:957][259]Cmd: DELETE
+[2018.05.23-00.06.43:957][259]Cmd: ACTOR DELETE
+[2018.05.23-00.06.43:959][259]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.06.43:970][259]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.23-00.06.45:833][465]LogActorFactory: Actor Factory created Section_Engi_Wall_02
+[2018.05.23-00.06.46:326][521]LogActorFactory: Actor Factory created Section_Engi_Wall_02
+[2018.05.23-00.07.01:766][159]Cmd: DELETE
+[2018.05.23-00.07.01:766][159]Cmd: ACTOR DELETE
+[2018.05.23-00.07.01:768][159]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.07.01:778][159]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.05.23-00.07.02:567][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_02)
+[2018.05.23-00.07.03:991][380]LogActorFactory: Actor Factory created Section_Engi_Wall_05
+[2018.05.23-00.07.04:504][429]LogActorFactory: Actor Factory created Section_Engi_Wall_05
+[2018.05.23-00.07.12:045][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_05)
+[2018.05.23-00.07.18:602][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_02)
+[2018.05.23-00.07.19:684][901]Cmd: DELETE
+[2018.05.23-00.07.19:684][901]Cmd: ACTOR DELETE
+[2018.05.23-00.07.19:686][901]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.07.19:697][901]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.23-00.07.20:400][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_05)
+[2018.05.23-00.07.52:489][196]LogActorFactory: Actor Factory created Section_Engi_Wall_01
+[2018.05.23-00.07.52:920][231]LogActorFactory: Actor Factory created Section_Engi_Wall_01
+[2018.05.23-00.08.26:196][579]LogActorFactory: Actor Factory created Engi_UpperFloor_Stairs
+[2018.05.23-00.08.26:985][644]LogActorFactory: Actor Factory created Engi_UpperFloor_Stairs
+[2018.05.23-00.08.41:615][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_Stairs)
+[2018.05.23-00.08.50:614][963]LogActorFactory: Actor Factory created Engi_UpperFloor_01
+[2018.05.23-00.08.52:835][170]LogActorFactory: Actor Factory created Engi_UpperFloor_01
+[2018.05.23-00.08.58:074][693]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Engi_UpperFloor_Stairs)
+[2018.05.23-00.09.04:922][364]Cmd: DELETE
+[2018.05.23-00.09.04:922][364]Cmd: ACTOR DELETE
+[2018.05.23-00.09.04:924][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.09.04:924][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.09.04:935][364]LogEditorActor: Deleted 2 Actors (0.013 secs)
+[2018.05.23-00.09.06:077][500]Cmd: TRANSACTION UNDO
+[2018.05.23-00.09.06:077][500]LogEditorTransaction: Undo Delete Actors
+[2018.05.23-00.09.07:837][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_01)
+[2018.05.23-00.09.37:986][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_Stairs)
+[2018.05.23-00.10.08:922][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_01)
+[2018.05.23-00.10.26:044][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_2)
+[2018.05.23-00.10.39:582][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_18)
+[2018.05.23-00.10.52:694][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_3)
+[2018.05.23-00.10.56:563][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_2)
+[2018.05.23-00.11.05:150][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_19)
+[2018.05.23-00.11.11:913][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_3)
+[2018.05.23-00.11.14:794][ 45]Cmd: DELETE
+[2018.05.23-00.11.14:794][ 45]Cmd: ACTOR DELETE
+[2018.05.23-00.11.14:796][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.11.14:807][ 45]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.23-00.11.15:406][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_2)
+[2018.05.23-00.11.15:799][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_01)
+[2018.05.23-00.11.16:481][217]Cmd: DELETE
+[2018.05.23-00.11.16:481][217]Cmd: ACTOR DELETE
+[2018.05.23-00.11.16:483][217]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.11.16:493][217]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.05.23-00.11.17:673][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_2)
+[2018.05.23-00.11.32:713][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_22)
+[2018.05.23-00.11.34:086][977]LogEditorViewport: Clicking Background
+[2018.05.23-00.11.34:676][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_22)
+[2018.05.23-00.11.35:907][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_18)
+[2018.05.23-00.11.37:287][274]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_17)
+[2018.05.23-00.11.42:664][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_23)
+[2018.05.23-00.11.48:697][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_03)
+[2018.05.23-00.12.27:367][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_26)
+[2018.05.23-00.12.30:080][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_24)
+[2018.05.23-00.12.30:597][571]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_25)
+[2018.05.23-00.12.30:991][606]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_23)
+[2018.05.23-00.12.38:786][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_22)
+[2018.05.23-00.13.02:202][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_19)
+[2018.05.23-00.13.02:661][778]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_22)
+[2018.05.23-00.13.06:968][212]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_22)
+[2018.05.23-00.13.07:401][251]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_19)
+[2018.05.23-00.13.15:563][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_36)
+[2018.05.23-00.13.49:201][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_34)
+[2018.05.23-00.13.51:081][615]LogSavePackage: Save=428.92ms
+[2018.05.23-00.13.51:081][615]LogSavePackage: Moving 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/The_Bends_Level_01_Auto5AEEEB7B3466654E5057608BB753081A4.tmp' to 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto5.umap'
+[2018.05.23-00.13.51:082][615]LogSavePackage:Display: Finished SavePackage E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto5.umap
+[2018.05.23-00.13.51:084][615]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/The_Bends_Level_01' took 0.462
+[2018.05.23-00.13.51:084][615]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.462
+[2018.05.23-00.13.52:624][743]LogEditorViewport: Clicking Background
+[2018.05.23-00.13.53:023][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_20)
+[2018.05.23-00.13.53:668][842]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_21)
+[2018.05.23-00.13.56:113][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_39)
+[2018.05.23-00.13.57:016][159]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_40)
+[2018.05.23-00.13.59:125][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_41)
+[2018.05.23-00.14.00:082][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_21)
+[2018.05.23-00.14.00:409][478]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_40)
+[2018.05.23-00.14.00:774][502]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_42)
+[2018.05.23-00.14.07:699][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_21)
+[2018.05.23-00.14.09:812][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_41)
+[2018.05.23-00.14.15:940][  1]Cmd: TRANSACTION UNDO
+[2018.05.23-00.14.15:940][  1]LogEditorTransaction: Undo Edit Static Mesh
+[2018.05.23-00.14.21:447][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_21)
+[2018.05.23-00.14.28:174][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_26)
+[2018.05.23-00.15.05:697][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_39)
+[2018.05.23-00.15.07:142][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_40)
+[2018.05.23-00.15.08:071][488]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_39)
+[2018.05.23-00.15.08:611][535]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_42)
+[2018.05.23-00.15.09:253][599]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_20)
+[2018.05.23-00.15.18:749][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_43)
+[2018.05.23-00.15.19:180][589]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_46)
+[2018.05.23-00.15.19:636][632]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_45)
+[2018.05.23-00.15.20:044][670]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_44)
+[2018.05.23-00.15.20:429][705]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_47)
+[2018.05.23-00.15.20:766][729]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_50)
+[2018.05.23-00.15.35:669][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_43)
+[2018.05.23-00.15.37:776][464]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_46)
+[2018.05.23-00.15.38:152][498]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_45)
+[2018.05.23-00.15.38:578][532]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_44)
+[2018.05.23-00.15.38:898][560]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_47)
+[2018.05.23-00.15.39:208][587]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_50)
+[2018.05.23-00.15.39:529][614]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_49)
+[2018.05.23-00.15.39:852][642]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_48)
+[2018.05.23-00.15.43:824][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_62)
+[2018.05.23-00.15.44:202][ 76]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_63)
+[2018.05.23-00.15.49:200][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_57)
+[2018.05.23-00.15.52:891][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_60)
+[2018.05.23-00.15.55:213][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_61)
+[2018.05.23-00.15.57:749][457]Cmd: TRANSACTION UNDO
+[2018.05.23-00.15.57:749][457]LogEditorTransaction: Undo Edit Static Mesh
+[2018.05.23-00.16.08:585][494]LogEditorViewport: Clicking Background
+[2018.05.23-00.16.13:331][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_44)
+[2018.05.23-00.16.17:835][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_54)
+[2018.05.23-00.16.19:117][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Floor_107)
+[2018.05.23-00.16.22:153][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_03)
+[2018.05.23-00.16.22:790][899]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_26)
+[2018.05.23-00.16.41:263][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_49)
+[2018.05.23-00.16.41:902][790]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_48)
+[2018.05.23-00.17.02:414][823]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_74)
+[2018.05.23-00.17.02:873][858]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_73)
+[2018.05.23-00.17.07:808][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_78)
+[2018.05.23-00.17.08:628][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_80)
+[2018.05.23-00.17.09:063][435]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_79)
+[2018.05.23-00.17.14:139][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_77)
+[2018.05.23-00.17.14:661][956]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_78)
+[2018.05.23-00.17.17:134][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_77)
+[2018.05.23-00.17.20:820][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_78)
+[2018.05.23-00.17.24:105][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_69)
+[2018.05.23-00.17.25:216][968]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_71)
+[2018.05.23-00.17.25:642][  6]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_70)
+[2018.05.23-00.17.25:971][ 34]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_72)
+[2018.05.23-00.17.42:309][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Wall_89)
+[2018.05.23-00.17.45:143][928]Cmd: TRANSACTION UNDO
+[2018.05.23-00.17.45:143][928]LogEditorTransaction: Undo Rotate Actors
+[2018.05.23-00.17.46:082][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Section_Engi_Wall_90)
+[2018.05.23-00.18.09:558][351]LogActorFactory: Actor Factory created SeemFIxer
+[2018.05.23-00.18.09:984][389]LogActorFactory: Actor Factory created SeemFIxer
+[2018.05.23-00.18.10:334][420]Cmd: TRANSACTION UNDO
+[2018.05.23-00.18.10:334][420]LogEditorTransaction: Undo Create Actors
+[2018.05.23-00.18.11:129][474]LogStaticMesh: Building static mesh Section_Engi_Railings_Start...
+[2018.05.23-00.18.11:149][474]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Engnerring/Other/Section_Engi_Railings_Start.Section_Engi_Railings_Start
+[2018.05.23-00.18.11:268][483]LogActorFactory: Actor Factory created Section_Engi_Railings_Start
+[2018.05.23-00.18.11:852][536]LogActorFactory: Actor Factory created Section_Engi_Railings_Start
+[2018.05.23-00.18.27:058][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_4)
+[2018.05.23-00.18.30:494][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_2)
+[2018.05.23-00.18.33:999][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Railings_Start)
+[2018.05.23-00.18.40:095][297]Cmd: MODE GRID=0
+[2018.05.23-00.19.19:234][222]Cmd: DELETE
+[2018.05.23-00.19.19:234][222]Cmd: ACTOR DELETE
+[2018.05.23-00.19.19:236][222]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.19.19:248][222]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.05.23-00.19.32:247][663]LogActorFactory: Actor Factory created Tools_pCube138
+[2018.05.23-00.19.32:686][705]LogActorFactory: Actor Factory created Tools_pCube138
+[2018.05.23-00.19.39:305][395]Cmd: DELETE
+[2018.05.23-00.19.39:305][395]Cmd: ACTOR DELETE
+[2018.05.23-00.19.39:307][395]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.23-00.19.39:319][395]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.05.23-00.19.45:129][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_2)
+[2018.05.23-00.19.51:809][717]LogActorFactory: Actor Factory created Section_Engi_Railings_Start
+[2018.05.23-00.19.53:955][920]LogActorFactory: Actor Factory created Section_Engi_Railings_Start
+[2018.05.23-00.20.13:502][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engi_UpperFloor_3)
+[2018.05.23-00.20.16:576][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Section_Engi_Railings_Start)
+[2018.05.23-00.20.20:301][583]LogEditorViewport: Clicking Background
+[2018.05.23-00.23.52:246][125]LogSavePackage: Save=474.10ms
+[2018.05.23-00.23.52:246][125]LogSavePackage: Moving 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/The_Bends_Level_01_Auto655B1E268439123174E70C6AC831104D1.tmp' to 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto6.umap'
+[2018.05.23-00.23.52:247][125]LogSavePackage:Display: Finished SavePackage E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Autosaves/Game/Maps/The_Bends_Level_01_Auto6.umap
+[2018.05.23-00.23.52:250][125]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/The_Bends_Level_01' took 0.507
+[2018.05.23-00.23.52:250][125]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.507
+[2018.05.23-00.27.12:332][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/The_Bends_Level_01" FILE="E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/Maps/The_Bends_Level_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.23-00.27.12:880][173]LogSavePackage: Save=528.62ms
+[2018.05.23-00.27.12:881][173]LogSavePackage: Moving 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/The_Bends_Level_01A42449054B502BA6DEAA8DAA5B88622F.tmp' to 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/Maps/The_Bends_Level_01.umap'
+[2018.05.23-00.27.12:890][173]LogSavePackage:Display: Finished SavePackage E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/Maps/The_Bends_Level_01.umap
+[2018.05.23-00.27.19:177][754]Cmd: QUIT_EDITOR
+[2018.05.23-00.27.19:309][754]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.23-00.27.19:341][754]LogExit: Preparing to exit.
+[2018.05.23-00.27.20:580][754]LogExit: Editor shut down
+[2018.05.23-00.27.20:582][754]LogExit: Transaction tracking system shut down
+[2018.05.23-00.27.20:935][754]LogObj: Freed 0b from 0 cluster array pools.
+[2018.05.23-00.27.20:935][754]LogExit: Object subsystem successfully closed.
+[2018.05.23-00.27.21:005][754]LogD3D11RHI: Shutdown
+[2018.05.23-00.27.21:005][754]LogD3D11RHI: CleanupD3DDevice
+[2018.05.23-00.27.21:189][754]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.23-00.27.21:394][754]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (504)
+[2018.05.23-00.27.21:394][754]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (502)
+[2018.05.23-00.27.21:394][754]LogModuleManager: Shutting down and abandoning module CrashTracker (500)
+[2018.05.23-00.27.21:394][754]LogModuleManager: Shutting down and abandoning module SceneOutliner (498)
+[2018.05.23-00.27.21:394][754]LogModuleManager: Shutting down and abandoning module AddContentDialog (496)
+[2018.05.23-00.27.21:394][754]LogDirectoryWatcher: A directory notification for 'D:/UE/UE_4.15/FeaturePacks/' was aborted.
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module WidgetCarousel (495)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module EditorWidgets (492)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module CollectionManager (490)
+[2018.05.23-00.27.21:400][754]LogDirectoryWatcher: A directory notification for 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/Collections/' was aborted.
+[2018.05.23-00.27.21:400][754]LogDirectoryWatcher: A directory notification for 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/Developers/lukem/Collections/' was aborted.
+[2018.05.23-00.27.21:400][754]LogDirectoryWatcher: A directory notification for 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Saved/Collections/' was aborted.
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module StatsViewer (488)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module FoliageEdit (486)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module LandscapeEditor (484)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (482)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module ActorPickerMode (480)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module GeometryMode (478)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module TextureAlignMode (476)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module BspMode (474)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module HardwareSurvey (472)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (470)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module AutomationWorker (468)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (466)
+[2018.05.23-00.27.21:400][754]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (464)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module PlacementMode (463)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (460)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (458)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module MfMediaFactory (456)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module MfMediaEditor (454)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (452)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (450)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (448)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module Media (447)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (444)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module CharacterAI (442)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module AudioCapture (440)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module SequenceRecorder (439)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module SmartSnapping (436)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module SessionServices (434)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module ViewportSnapping (432)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module ViewportInteraction (430)
+[2018.05.23-00.27.21:409][754]LogModuleManager: Shutting down and abandoning module LogVisualizer (428)
+[2018.05.23-00.27.21:429][754]LogModuleManager: Shutting down and abandoning module IntroTutorials (426)
+[2018.05.23-00.27.21:430][754]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (425)
+[2018.05.23-00.27.21:444][754]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (422)
+[2018.05.23-00.27.21:444][754]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (420)
+[2018.05.23-00.27.21:444][754]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (418)
+[2018.05.23-00.27.21:444][754]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (416)
+[2018.05.23-00.27.21:444][754]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (415)
+[2018.05.23-00.27.21:898][754]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (412)
+[2018.05.23-00.27.21:898][754]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (410)
+[2018.05.23-00.27.21:898][754]LogModuleManager: Shutting down and abandoning module InputBindingEditor (408)
+[2018.05.23-00.27.21:898][754]LogModuleManager: Shutting down and abandoning module NiagaraEditor (406)
+[2018.05.23-00.27.21:923][754]LogModuleManager: Shutting down and abandoning module MergeActors (404)
+[2018.05.23-00.27.21:924][754]LogModuleManager: Shutting down and abandoning module SizeMap (402)
+[2018.05.23-00.27.21:924][754]LogModuleManager: Shutting down and abandoning module TreeMap (400)
+[2018.05.23-00.27.21:924][754]LogModuleManager: Shutting down and abandoning module ReferenceViewer (398)
+[2018.05.23-00.27.21:924][754]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (396)
+[2018.05.23-00.27.21:932][754]LogModuleManager: Shutting down and abandoning module LocalizationService (395)
+[2018.05.23-00.27.21:944][754]LogModuleManager: Shutting down and abandoning module HardwareTargeting (392)
+[2018.05.23-00.27.21:944][754]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (390)
+[2018.05.23-00.27.21:944][754]LogModuleManager: Shutting down and abandoning module UndoHistory (388)
+[2018.05.23-00.27.21:944][754]LogModuleManager: Shutting down and abandoning module UserFeedback (386)
+[2018.05.23-00.27.21:944][754]LogModuleManager: Shutting down and abandoning module XmlParser (384)
+[2018.05.23-00.27.21:944][754]LogModuleManager: Shutting down and abandoning module Blutility (382)
+[2018.05.23-00.27.21:944][754]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (380)
+[2018.05.23-00.27.21:944][754]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (379)
+[2018.05.23-00.27.21:945][754]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (376)
+[2018.05.23-00.27.21:945][754]LogModuleManager: Shutting down and abandoning module SettingsEditor (374)
+[2018.05.23-00.27.21:945][754]LogModuleManager: Shutting down and abandoning module ProjectLauncher (372)
+[2018.05.23-00.27.21:960][754]LogModuleManager: Shutting down and abandoning module SessionFrontend (370)
+[2018.05.23-00.27.21:968][754]LogModuleManager: Shutting down and abandoning module ProfilerClient (368)
+[2018.05.23-00.27.21:977][754]LogModuleManager: Shutting down and abandoning module DeviceManager (366)
+[2018.05.23-00.27.21:984][754]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (365)
+[2018.05.23-00.27.22:026][754]LogModuleManager: Shutting down and abandoning module AutomationController (362)
+[2018.05.23-00.27.22:026][754]LogModuleManager: Shutting down and abandoning module AutomationWindow (360)
+[2018.05.23-00.27.22:050][754]LogModuleManager: Shutting down and abandoning module Layers (358)
+[2018.05.23-00.27.22:059][754]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (356)
+[2018.05.23-00.27.22:059][754]LogModuleManager: Shutting down and abandoning module DetailCustomizations (354)
+[2018.05.23-00.27.22:059][754]LogModuleManager: Shutting down and abandoning module PackagesDialog (352)
+[2018.05.23-00.27.22:059][754]LogModuleManager: Shutting down and abandoning module Persona (350)
+[2018.05.23-00.27.22:068][754]LogModuleManager: Shutting down and abandoning module AnimGraph (349)
+[2018.05.23-00.27.22:068][754]LogModuleManager: Shutting down and abandoning module Kismet (346)
+[2018.05.23-00.27.22:072][754]LogModuleManager: Shutting down and abandoning module GraphEditor (344)
+[2018.05.23-00.27.22:103][754]LogModuleManager: Shutting down and abandoning module ClassViewer (342)
+[2018.05.23-00.27.22:103][754]LogModuleManager: Shutting down and abandoning module Toolbox (340)
+[2018.05.23-00.27.22:103][754]LogModuleManager: Shutting down and abandoning module ModuleUI (338)
+[2018.05.23-00.27.22:114][754]LogModuleManager: Shutting down and abandoning module MovieSceneTools (336)
+[2018.05.23-00.27.22:115][754]LogModuleManager: Shutting down and abandoning module OutputLog (334)
+[2018.05.23-00.27.22:115][754]LogModuleManager: Shutting down and abandoning module GammaUI (332)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module Documentation (330)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module Niagara (328)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (326)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module AnalyticsET (324)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module PortalServices (322)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module PortalRpc (320)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module MessagingRpc (318)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module AIModule (316)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module GameplayDebugger (315)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module AITestSuite (313)
+[2018.05.23-00.27.22:128][754]LogModuleManager: Shutting down and abandoning module ProfilerService (310)
+[2018.05.23-00.27.22:166][754]LogModuleManager: Shutting down and abandoning module TaskGraph (308)
+[2018.05.23-00.27.22:167][754]LogModuleManager: Shutting down and abandoning module SubstanceEditor (306)
+[2018.05.23-00.27.22:167][754]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2018.05.23-00.27.22:167][754]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2018.05.23-00.27.22:167][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2018.05.23-00.27.22:167][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2018.05.23-00.27.22:167][754]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2018.05.23-00.27.22:167][754]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2018.05.23-00.27.22:167][754]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2018.05.23-00.27.22:167][754]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2018.05.23-00.27.22:168][754]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2018.05.23-00.27.22:168][754]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2018.05.23-00.27.22:168][754]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2018.05.23-00.27.22:168][754]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2018.05.23-00.27.22:169][754]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2018.05.23-00.27.22:169][754]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2018.05.23-00.27.22:169][754]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2018.05.23-00.27.22:169][754]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2018.05.23-00.27.22:169][754]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2018.05.23-00.27.22:169][754]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2018.05.23-00.27.22:169][754]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2018.05.23-00.27.22:169][754]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2018.05.23-00.27.22:169][754]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2018.05.23-00.27.22:170][754]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2018.05.23-00.27.22:170][754]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2018.05.23-00.27.22:170][754]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2018.05.23-00.27.22:170][754]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2018.05.23-00.27.22:170][754]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2018.05.23-00.27.22:170][754]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2018.05.23-00.27.22:171][754]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2018.05.23-00.27.22:171][754]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2018.05.23-00.27.22:171][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2018.05.23-00.27.22:171][754]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2018.05.23-00.27.22:171][754]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2018.05.23-00.27.22:171][754]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2018.05.23-00.27.22:181][754]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2018.05.23-00.27.22:181][754]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2018.05.23-00.27.22:182][754]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2018.05.23-00.27.22:182][754]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2018.05.23-00.27.22:182][754]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2018.05.23-00.27.22:183][754]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2018.05.23-00.27.22:184][754]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2018.05.23-00.27.22:184][754]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2018.05.23-00.27.22:184][754]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2018.05.23-00.27.22:184][754]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2018.05.23-00.27.22:285][754]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2018.05.23-00.27.22:385][754]LogModuleManager: Shutting down and abandoning module SubstanceCore (214)
+[2018.05.23-00.27.22:398][754]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2018.05.23-00.27.22:414][754]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2018.05.23-00.27.22:414][754]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.05.23-00.27.22:414][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2018.05.23-00.27.22:414][754]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2018.05.23-00.27.22:415][754]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2018.05.23-00.27.22:415][754]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2018.05.23-00.27.22:418][754]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2018.05.23-00.27.22:418][754]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2018.05.23-00.27.22:418][754]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2018.05.23-00.27.22:418][754]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2018.05.23-00.27.22:418][754]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2018.05.23-00.27.22:418][754]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2018.05.23-00.27.22:429][754]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2018.05.23-00.27.22:429][754]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2018.05.23-00.27.22:430][754]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2018.05.23-00.27.22:441][754]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2018.05.23-00.27.22:454][754]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2018.05.23-00.27.22:465][754]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2018.05.23-00.27.22:473][754]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2018.05.23-00.27.22:473][754]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2018.05.23-00.27.22:473][754]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2018.05.23-00.27.22:484][754]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2018.05.23-00.27.22:484][754]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2018.05.23-00.27.22:487][754]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2018.05.23-00.27.22:487][754]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2018.05.23-00.27.22:487][754]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2018.05.23-00.27.22:487][754]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2018.05.23-00.27.22:487][754]LogModuleManager: Shutting down and abandoning module Core (154)
+[2018.05.23-00.27.22:487][754]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2018.05.23-00.27.23:102][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.23-00.27.23:102][754]LogDirectoryWatcher: A directory notification for 'E:/Uni Stuff/Year2/Github/The-Bends/TheBends/Content/' was aborted.
+[2018.05.23-00.27.23:102][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.23-00.27.23:102][754]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2018.05.23-00.27.23:107][754]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2018.05.23-00.27.23:107][754]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2018.05.23-00.27.23:107][754]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2018.05.23-00.27.23:107][754]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2018.05.23-00.27.23:107][754]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2018.05.23-00.27.23:107][754]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2018.05.23-00.27.23:107][754]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2018.05.23-00.27.23:107][754]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2018.05.23-00.27.23:139][754]LogDerivedDataCache: Shutdown
+[2018.05.23-00.27.23:139][754]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2018.05.23-00.27.23:139][754]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2018.05.23-00.27.23:139][754]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2018.05.23-00.27.23:150][754]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2018.05.23-00.27.23:150][754]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2018.05.23-00.27.23:155][754]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2018.05.23-00.27.23:156][754]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2018.05.23-00.27.23:165][754]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2018.05.23-00.27.23:165][754]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2018.05.23-00.27.23:165][754]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2018.05.23-00.27.23:165][754]LogOnline:Display: Unloading online subsystem: NULL
+[2018.05.23-00.27.23:176][754]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2018.05.23-00.27.23:184][754]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2018.05.23-00.27.23:184][754]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.23-00.27.23:184][754]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCB4575AA-4A67-29BB-1D81-5A8A356EACA7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=631baacb4079a51d8c50fda0fc820809%7C5426334c903140f89a87a90a895d9865%7Cff1a9e8d-930e-43bf-ab30-c72d773ab186&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.23-00.27.23:219][754]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2018.05.23-00.27.23:221][754]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.05.23-00.27.23:221][754]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.05.23-00.27.23:221][754]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.05.23-00.27.23:221][754]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.05.23-00.27.23:221][754]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.05.23-00.27.23:227][754]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.05.23-00.27.23:235][754]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.05.23-00.27.23:235][754]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.05.23-00.27.23:235][754]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.05.23-00.27.23:235][754]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.05.23-00.27.23:235][754]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.05.23-00.27.23:235][754]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.05.23-00.27.23:235][754]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.23-00.27.23:235][754]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.23-00.27.23:235][754]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.23-00.27.23:238][754]LogExit: Exiting.
+[2018.05.23-00.27.23:244][754]Log file closed, 05/23/18 01:27:23
